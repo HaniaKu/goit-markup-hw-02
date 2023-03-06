@@ -32,7 +32,7 @@
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: calc(1.33);
+    line-height: 1.33px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -51,6 +51,7 @@ body{
         font-size: 16px;
         line-height: calc(24/16);
         letter-spacing: 0.02em;
+        color: var(--text);
 }
 /*----Header-section----*/
 
@@ -65,11 +66,7 @@ body{
 }
 .menu-link:hover,
 .menu-link:focus{
-color: var(--pressed-state);
-}
-.address{
-    font-style: normal;
-    list-style: none;
+color: var(--primary-brand);
 }
 .address-item{
     text-decoration: none;
@@ -83,7 +80,7 @@ color: var(--pressed-state);
 }
 .address-item:hover
 .address-item:focus{
-color: var(--pressed-state);
+color: var(--primary-brand);
 }
 /*----Components----*/
 
