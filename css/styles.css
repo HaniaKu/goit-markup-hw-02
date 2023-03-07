@@ -32,11 +32,11 @@
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33px;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     color: var(--primary-brand);
 }
 .logo-dark {
@@ -68,20 +68,32 @@ body{
 .menu-link:focus{
 color: var(--pressed-state);
 }
-.address-item{
+.address{
+        font-style: normal;
+}
+.phone-number{
     text-decoration: none;
-    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
+    color: var(--text);
+}
+.email{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24/16);
+        letter-spacing: 0.02em;
+        color: var(--text);      
+}
+.email:is(:hover, :focus){
+        color: var(--pressed-state);     
+}
+.phone-number:is(:hover, :focus){
+        color: var(--pressed-state);     
+}
 
-    color: var(--dark);
-}
-.address-item:hover
-.address-item:focus{
-color: var(--pressed-state);
-}
 /*----Components----*/
 
 .list {
