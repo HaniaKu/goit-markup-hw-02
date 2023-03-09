@@ -70,7 +70,7 @@ color: var(--pressed-state);
 }
 .address{
         font-style: normal;}
-.email{
+.address-link{
         text-decoration: none;
         font-weight: 400;
         font-size: 16px;
@@ -78,18 +78,8 @@ color: var(--pressed-state);
         letter-spacing: 0.02em;
         color: var(--text);      
         }
-.phone-number{       text-decoration: none;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24/16);
-        letter-spacing: 0.02em;
-        color: var(--text);      
- }
 
-.email:is(:hover, :focus){
-        color: var(--pressed-state);     
-}
-.phone-number:is(:hover, :focus){
+.address-link:is(:hover, :focus){
         color: var(--pressed-state);     
 }
 
