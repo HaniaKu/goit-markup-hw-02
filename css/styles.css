@@ -93,7 +93,7 @@ color: var(--pressed-state);
         font-family: var(--primary-font);
         font-weight: 500;
         font-size: 16px;
-        letter-spacing: 1.5;     
+        line-height: 1.5;     
         align-items: center;
         letter-spacing: 0.04em;
         cursor: pointer;
