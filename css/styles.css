@@ -3,7 +3,8 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
+    color: #434455;
    
 }
 ul,ol{
@@ -23,7 +24,7 @@ a{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
 }
 .logo-dark{
     color: #2E2F42;
@@ -32,16 +33,23 @@ a{
     color: #F4F4FD;
 }
 .header-menu {
-    color: #2E2F42;
-    
+    color: #2E2F42; 
 }
-.header-menu-item {
+.header-link:hover,
+.header-link:focus{
+    color: #404BBF;
 }
 .address {
-    color: #434455;
-    font-weight: 400;
+   
 }
 .address-menu {
+    font-style: normal;
+    color: inherit;
+    font-weight: 400;
+}
+.address-link:hover,
+.address-link:focus{
+    color: #404BBF;
 }
 .address-menu-tel {
 }
@@ -58,7 +66,13 @@ a{
 }
 .hero-btn {
     letter-spacing: 0.04em;
+    color: #ffffff;
     background-color: #4D5AE5;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
 }
 
 /**==============================================*/
@@ -75,7 +89,6 @@ a{
     line-height: 1.2;
 }
 .advantages-text {
-    color: #434455;
     font-weight: 400;
 }
 
@@ -101,13 +114,41 @@ a{
     line-height: 1.2;
 }
 .teams-text {
-    color: #434455;
     font-weight: 400;
-    word-wrap: break-word
 }
 
  /**==============================================*/
- /**================OUR TEAMS===================*/
+ /**================PORTFOLIO====================*/
+ .portfolio {
+}
+.portfolio-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    word-wrap: break-word
+}
+.portfolio-menu {
+
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    word-wrap: break-word
+}
+.portfolio-text {
+    font-weight: 400;
+    word-wrap: break-word
+}
 .footer{
     background-color: #2E2F42;
+}
+.footer-text{
+    color: #F4F4FD;
+    font-weight: 400;
+    word-wrap: break-word
 }
