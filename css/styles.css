@@ -35,7 +35,7 @@ a{
     color: #F4F4FD;
 }
 .header-menu {
-    color: #2E2F42; 
+    color: #2e2f42; 
 }
 .header-link:hover,
 .header-link:focus{
@@ -46,13 +46,21 @@ a{
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     word-wrap: break-word;  
 }
 .address-menu {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-link{
+    font-size: 16px;
     color: inherit;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -112,11 +120,10 @@ a{
  /**================OUR TEAMS===================*/
 
  .teams {
+    background-color: #F4F4FD;
 }
 .teams-title {
     text-align: center;
-    background-color: #F4F4FD;
-    font-weight: 500;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -126,11 +133,12 @@ a{
     text-align: center;
 }
 .teams-menu {
+    background-color: #FFFFFF;
 }
 .teams-item {
 }
 .teams-subtitle {
-    background-color: #FFFFFF;
+    font-weight: 500;
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
