@@ -3,7 +3,8 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
+    background-color: #ffffff;
     color: #434455;
    
 }
@@ -24,7 +25,8 @@ a{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-dark{
     color: #2E2F42;
@@ -40,13 +42,19 @@ a{
     color: #404BBF;
 }
 .address {
-   
+    font-style: normal;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;  
 }
 .address-menu {
-    font-style: normal;
     color: inherit;
     font-weight: 400;
 }
+
 .address-link:hover,
 .address-link:focus{
     color: #404BBF;
@@ -60,15 +68,19 @@ a{
    background-color: #2E2F42;
 }
 .hero-title {
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -84,12 +96,16 @@ a{
 .advantages-item {
 }
 .advantages-title {
+    font-weight: 500;
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .advantages-text {
+    background-color: #FFFFFF;
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /**==============================================*/
@@ -98,28 +114,37 @@ a{
  .teams {
 }
 .teams-title {
+    text-align: center;
+    background-color: #F4F4FD;
+    font-weight: 500;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .teams-menu {
 }
 .teams-item {
 }
 .teams-subtitle {
+    background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .teams-text {
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
  /**==============================================*/
  /**================PORTFOLIO====================*/
  .portfolio {
+    background-color: #F4F4FD
 }
 .portfolio-title {
     color: #2E2F42;
@@ -127,7 +152,9 @@ a{
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
-    word-wrap: break-word
+    text-align: center;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
 }
 .portfolio-menu {
 
@@ -135,20 +162,24 @@ a{
 .portfolio-item {
 }
 .portfolio-subtitle {
+    font-weight: 500;
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
-    word-wrap: break-word
+    word-wrap: break-word;
+    letter-spacing: 0.02em;
 }
 .portfolio-text {
+    letter-spacing: 0.02em;
     font-weight: 400;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .footer{
     background-color: #2E2F42;
 }
 .footer-text{
+    letter-spacing: 0.02em;
     color: #F4F4FD;
     font-weight: 400;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
